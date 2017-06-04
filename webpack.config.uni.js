@@ -17,7 +17,7 @@ module.exports = {
     },
     plugins: [
         new ngtools.AotPlugin({
-            tsConfigPath: './tsconfig-aot.json'
+            tsConfigPath: './tsconfig-uni.json'
         }),
         new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
     ],
